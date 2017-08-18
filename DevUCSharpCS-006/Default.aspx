@@ -25,7 +25,7 @@
     <p style="font-family: Arial, Helvetica, sans-serif">
         This is some text that I want to apply a <span class="auto-style1">style</span> to.
     </p>
-    <p>
-        &nbsp;</p>
+    <p style="font-family: Arial, Helvetica, sans-serif">
+        <a href="http://www.devu.com">Add a Hyperlink.</a></p>
 </body>
 </html>
