@@ -5,6 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            color: #009933;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,5 +22,10 @@
     <h4>Head Line 4</h4>
     <h5>Head Line 5</h5>
     <h6>Head Line 6</h6>
+    <p style="font-family: Arial, Helvetica, sans-serif">
+        This is some text that I want to apply a <span class="auto-style1">style</span> to.
+    </p>
+    <p>
+        &nbsp;</p>
 </body>
 </html>
