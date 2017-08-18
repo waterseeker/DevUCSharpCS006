@@ -9,6 +9,9 @@
         .auto-style1 {
             color: #009933;
         }
+        .auto-style2 {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -29,7 +32,34 @@
         <asp:HyperLink ID="HyperLink1" runat="server" Target="_blank">Adding a hyperlink through the Toolbox menu.</asp:HyperLink>
         <p>
             &nbsp;</p>
-        <asp:Image ID="Image2" runat="server" ImageUrl="~/tree.jpg" />
+        <asp:Image ID="Image2" runat="server" Height="247px" ImageUrl="~/tree.jpg" Width="383px" />
     </form>
+    <table class="auto-style2">
+        <tr>
+            <td>Player</td>
+            <td>Year</td>
+            <td>Home runs</td>
+        </tr>
+        <tr>
+            <td>Sammy Sosa</td>
+            <td>2005</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Mark MacGuire</td>
+            <td>2005</td>
+            <td>102</td>
+        </tr>
+    </table>
+    <ol>
+        <li>Ordered List First Item</li>
+        <li>Ordered List Second Item</li>
+        <li>Ordered List Third Item</li>
+    </ol>
+    <ul>
+        <li>Unordered List First Item</li>
+        <li>Unordered List First Item</li>
+        <li>Unordered List First Item</li>
+    </ul>
 </body>
 </html>
