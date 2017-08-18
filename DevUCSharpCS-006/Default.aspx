@@ -27,6 +27,9 @@
         <p style="font-family: Arial, Helvetica, sans-serif">
             <a href="http://www.devu.com">Add a Hyperlink.</a></p>
         <asp:HyperLink ID="HyperLink1" runat="server" Target="_blank">Adding a hyperlink through the Toolbox menu.</asp:HyperLink>
+        <p>
+            &nbsp;</p>
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/tree.jpg" />
     </form>
 </body>
 </html>

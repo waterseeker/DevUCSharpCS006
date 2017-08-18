@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="tree.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
