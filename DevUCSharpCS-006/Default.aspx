@@ -12,6 +12,11 @@
         .auto-style2 {
             width: 100%;
         }
+        .auto-style3 {
+            color: #009933;
+            font-size: small;
+            background-color: #000000;
+        }
     </style>
 </head>
 <body>
@@ -32,7 +37,7 @@
         <asp:HyperLink ID="HyperLink1" runat="server" Target="_blank">Adding a hyperlink through the Toolbox menu.</asp:HyperLink>
         <p>
             &nbsp;</p>
-        <asp:Image ID="Image2" runat="server" Height="247px" ImageUrl="~/tree.jpg" Width="383px" />
+        <asp:Image ID="Image2" runat="server" ForeColor="Black" Height="99px" ImageUrl="~/tree.jpg" Width="107px" />
     </form>
     <table class="auto-style2">
         <tr>
@@ -57,9 +62,9 @@
         <li>Ordered List Third Item</li>
     </ol>
     <ul>
-        <li>Unordered List First Item</li>
-        <li>Unordered List First Item</li>
-        <li>Unordered List First Item</li>
+        <li class="auto-style3">Unordered List First Item</li>
+        <li class="auto-style3">Unordered List First Item</li>
+        <li class="auto-style3">Unordered List First Item</li>
     </ul>
 </body>
 </html>
